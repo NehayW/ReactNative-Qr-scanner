@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/QrScanner.iml" filepath="$PROJECT_DIR$/.idea/modules/QrScanner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/QrScanner.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/QrScanner.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2116578255/QrScanner.react-native-clipboard_clipboard.iml" filepath="$PROJECT_DIR$/.idea/modules/2116578255/QrScanner.react-native-clipboard_clipboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-933708840/QrScanner.react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/-933708840/QrScanner.react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1961971501/QrScanner.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/1961971501/QrScanner.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1541385339/QrScanner.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/-1541385339/QrScanner.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1077602718/QrScanner.react-native-svg.iml" filepath="$PROJECT_DIR$/.idea/modules/-1077602718/QrScanner.react-native-svg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/559227176/QrScanner.react-native-vision-camera.iml" filepath="$PROJECT_DIR$/.idea/modules/559227176/QrScanner.react-native-vision-camera.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1317446167/QrScanner.vision-camera-dynamsoft-barcode-reader.iml" filepath="$PROJECT_DIR$/.idea/modules/1317446167/QrScanner.vision-camera-dynamsoft-barcode-reader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/46622871/react-native-gradle-plugin.iml" filepath="$PROJECT_DIR$/.idea/modules/46622871/react-native-gradle-plugin.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,105 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.qrscanner"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/wangoes116/Project/Reusable_Components/QrScanner/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/home/wangoes116/Project/Reusable_Components/QrScanner/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/wangoes116/Project/Reusable_Components/QrScanner/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/home/wangoes116/Project/Reusable_Components/QrScanner/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/home/wangoes116/Project/Reusable_Components/QrScanner/android/app/src/main/AndroidManifest.xml:5:5-65
+12-->/home/wangoes116/Project/Reusable_Components/QrScanner/android/app/src/main/AndroidManifest.xml:5:22-62
+13    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+13-->/home/wangoes116/Project/Reusable_Components/QrScanner/android/app/src/main/AndroidManifest.xml:6:5-70
+13-->/home/wangoes116/Project/Reusable_Components/QrScanner/android/app/src/main/AndroidManifest.xml:6:22-68
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/home/wangoes116/Project/Reusable_Components/QrScanner/android/app/src/main/AndroidManifest.xml:7:5-80
+14-->/home/wangoes116/Project/Reusable_Components/QrScanner/android/app/src/main/AndroidManifest.xml:7:22-77
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/home/wangoes116/Project/Reusable_Components/QrScanner/android/app/src/main/AndroidManifest.xml:8:5-81
+15-->/home/wangoes116/Project/Reusable_Components/QrScanner/android/app/src/main/AndroidManifest.xml:8:22-78
+16
+17    <queries>
+17-->[androidx.camera:camera-extensions:1.1.0-beta02] /home/wangoes116/.gradle/caches/transforms-3/d9dd362d51b0ca048471af26673d998a/transformed/jetified-camera-extensions-1.1.0-beta02/AndroidManifest.xml:24:5-28:15
+18        <intent>
+18-->[androidx.camera:camera-extensions:1.1.0-beta02] /home/wangoes116/.gradle/caches/transforms-3/d9dd362d51b0ca048471af26673d998a/transformed/jetified-camera-extensions-1.1.0-beta02/AndroidManifest.xml:25:9-27:18
+19            <action android:name="androidx.camera.extensions.action.VENDOR_ACTION" />
+19-->[androidx.camera:camera-extensions:1.1.0-beta02] /home/wangoes116/.gradle/caches/transforms-3/d9dd362d51b0ca048471af26673d998a/transformed/jetified-camera-extensions-1.1.0-beta02/AndroidManifest.xml:26:13-86
+19-->[androidx.camera:camera-extensions:1.1.0-beta02] /home/wangoes116/.gradle/caches/transforms-3/d9dd362d51b0ca048471af26673d998a/transformed/jetified-camera-extensions-1.1.0-beta02/AndroidManifest.xml:26:21-83
+20        </intent>
+21    </queries>
+22
+23    <application
+23-->/home/wangoes116/Project/Reusable_Components/QrScanner/android/app/src/main/AndroidManifest.xml:10:5-29:19
+24        android:name="com.qrscanner.MainApplication"
+24-->/home/wangoes116/Project/Reusable_Components/QrScanner/android/app/src/main/AndroidManifest.xml:11:7-38
+25        android:allowBackup="false"
+25-->/home/wangoes116/Project/Reusable_Components/QrScanner/android/app/src/main/AndroidManifest.xml:15:7-34
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.5.0] /home/wangoes116/.gradle/caches/transforms-3/f382564408e8806e991bcb7c984abfd6/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+27        android:icon="@mipmap/ic_launcher"
+27-->/home/wangoes116/Project/Reusable_Components/QrScanner/android/app/src/main/AndroidManifest.xml:13:7-41
+28        android:label="@string/app_name"
+28-->/home/wangoes116/Project/Reusable_Components/QrScanner/android/app/src/main/AndroidManifest.xml:12:7-39
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->/home/wangoes116/Project/Reusable_Components/QrScanner/android/app/src/main/AndroidManifest.xml:14:7-52
+30        android:theme="@style/AppTheme" >
+30-->/home/wangoes116/Project/Reusable_Components/QrScanner/android/app/src/main/AndroidManifest.xml:16:7-38
+31        <activity
+31-->/home/wangoes116/Project/Reusable_Components/QrScanner/android/app/src/main/AndroidManifest.xml:17:7-28:18
+32            android:name="com.qrscanner.MainActivity"
+32-->/home/wangoes116/Project/Reusable_Components/QrScanner/android/app/src/main/AndroidManifest.xml:18:9-37
+33            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+33-->/home/wangoes116/Project/Reusable_Components/QrScanner/android/app/src/main/AndroidManifest.xml:20:9-118
+34            android:exported="true"
+34-->/home/wangoes116/Project/Reusable_Components/QrScanner/android/app/src/main/AndroidManifest.xml:23:9-32
+35            android:label="@string/app_name"
+35-->/home/wangoes116/Project/Reusable_Components/QrScanner/android/app/src/main/AndroidManifest.xml:19:9-41
+36            android:launchMode="singleTask"
+36-->/home/wangoes116/Project/Reusable_Components/QrScanner/android/app/src/main/AndroidManifest.xml:21:9-40
+37            android:windowSoftInputMode="adjustResize" >
+37-->/home/wangoes116/Project/Reusable_Components/QrScanner/android/app/src/main/AndroidManifest.xml:22:9-51
+38            <intent-filter>
+38-->/home/wangoes116/Project/Reusable_Components/QrScanner/android/app/src/main/AndroidManifest.xml:24:9-27:25
+39                <action android:name="android.intent.action.MAIN" />
+39-->/home/wangoes116/Project/Reusable_Components/QrScanner/android/app/src/main/AndroidManifest.xml:25:13-65
+39-->/home/wangoes116/Project/Reusable_Components/QrScanner/android/app/src/main/AndroidManifest.xml:25:21-62
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->/home/wangoes116/Project/Reusable_Components/QrScanner/android/app/src/main/AndroidManifest.xml:26:13-73
+41-->/home/wangoes116/Project/Reusable_Components/QrScanner/android/app/src/main/AndroidManifest.xml:26:23-70
+42            </intent-filter>
+43        </activity>
+44
+45        <uses-library
+45-->[androidx.camera:camera-extensions:1.1.0-beta02] /home/wangoes116/.gradle/caches/transforms-3/d9dd362d51b0ca048471af26673d998a/transformed/jetified-camera-extensions-1.1.0-beta02/AndroidManifest.xml:31:9-33:40
+46            android:name="androidx.camera.extensions.impl"
+46-->[androidx.camera:camera-extensions:1.1.0-beta02] /home/wangoes116/.gradle/caches/transforms-3/d9dd362d51b0ca048471af26673d998a/transformed/jetified-camera-extensions-1.1.0-beta02/AndroidManifest.xml:32:13-59
+47            android:required="false" />
+47-->[androidx.camera:camera-extensions:1.1.0-beta02] /home/wangoes116/.gradle/caches/transforms-3/d9dd362d51b0ca048471af26673d998a/transformed/jetified-camera-extensions-1.1.0-beta02/AndroidManifest.xml:33:13-37
+48
+49        <service
+49-->[androidx.camera:camera-camera2:1.1.0-beta02] /home/wangoes116/.gradle/caches/transforms-3/e97f8bca88982767f792be17a052b913/transformed/jetified-camera-camera2-1.1.0-beta02/AndroidManifest.xml:26:9-35:19
+50            android:name="androidx.camera.core.impl.MetadataHolderService"
+50-->[androidx.camera:camera-camera2:1.1.0-beta02] /home/wangoes116/.gradle/caches/transforms-3/e97f8bca88982767f792be17a052b913/transformed/jetified-camera-camera2-1.1.0-beta02/AndroidManifest.xml:27:13-75
+51            android:enabled="false"
+51-->[androidx.camera:camera-camera2:1.1.0-beta02] /home/wangoes116/.gradle/caches/transforms-3/e97f8bca88982767f792be17a052b913/transformed/jetified-camera-camera2-1.1.0-beta02/AndroidManifest.xml:28:13-36
+52            android:exported="false" >
+52-->[androidx.camera:camera-camera2:1.1.0-beta02] /home/wangoes116/.gradle/caches/transforms-3/e97f8bca88982767f792be17a052b913/transformed/jetified-camera-camera2-1.1.0-beta02/AndroidManifest.xml:29:13-37
+53            <meta-data
+53-->[androidx.camera:camera-camera2:1.1.0-beta02] /home/wangoes116/.gradle/caches/transforms-3/e97f8bca88982767f792be17a052b913/transformed/jetified-camera-camera2-1.1.0-beta02/AndroidManifest.xml:32:13-34:89
+54                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+54-->[androidx.camera:camera-camera2:1.1.0-beta02] /home/wangoes116/.gradle/caches/transforms-3/e97f8bca88982767f792be17a052b913/transformed/jetified-camera-camera2-1.1.0-beta02/AndroidManifest.xml:33:17-103
+55                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+55-->[androidx.camera:camera-camera2:1.1.0-beta02] /home/wangoes116/.gradle/caches/transforms-3/e97f8bca88982767f792be17a052b913/transformed/jetified-camera-camera2-1.1.0-beta02/AndroidManifest.xml:34:17-86
+56        </service>
+57    </application>
+58
+59</manifest>
